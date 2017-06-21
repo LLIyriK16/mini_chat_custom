@@ -12,11 +12,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug'
+  gem 'cucumber-rails', '~> 1.4', '>= 1.4.3'
+  gem 'database_cleaner'
+  gem 'rspec-rails', '~> 3.0'
+  gem 'capybara'
 end
 
 group :development do
   gem 'web-console', '~> 2.0'
 end
+
 
 gem 'devise', '~> 4.3'
 gem 'bootstrap-sass', '~>3.3', '>= 3.3.6'
