@@ -22,7 +22,7 @@ group :development do
   gem 'web-console', '~> 2.0'
 end
 
-
+gem 'jquery-turbolinks'
 gem 'devise', '~> 4.3'
 gem 'bootstrap-sass', '~>3.3', '>= 3.3.6'
 gem 'omniauth-facebook'
