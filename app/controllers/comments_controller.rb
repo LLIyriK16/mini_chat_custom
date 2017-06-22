@@ -1,4 +1,6 @@
 class CommentsController < ApplicationController
+  skip_before_action :authenticate_user!, only: :new
+
   def new
     @comment = Comment.new
     @comments = Comment.order('created_at DESC')
