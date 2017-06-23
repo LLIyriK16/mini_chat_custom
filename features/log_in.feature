@@ -1,4 +1,4 @@
-Feature:
+Feature: Login user
 
   Scenario: Login
     Given visit login page
