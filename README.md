@@ -3,11 +3,13 @@
 ## Simple chat
 
 ## Model 
- - User - devise - name:string avatar_url:string provider:string profile_url:string uid:string
- - Comment - body:string user:reference
+ x User - devise - name:string avatar_url:string provider:string profile_url:string uid:string
+ x Comment - body:string user:reference
  
 ## Features
- - Authenticated user can post comment
- 
+ x Authenticated user can post comment
+ x All users have custom avatar
+ - User can change avatar
+ - User can replay comments
 ## UI
- - Bootstrap
+ x Bootstrap
