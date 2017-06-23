@@ -4,7 +4,6 @@ class CommentsController < ApplicationController
   def new
     @comment = Comment.new
     @comments = Comment.order('created_at DESC')
-    @delete_comments = Comment.remove_excessive!
   end
 
   def create
